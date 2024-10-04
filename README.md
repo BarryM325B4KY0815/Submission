@@ -11,7 +11,7 @@ Proyek ini bertujuan untuk menganalisis data dari Dataset Penyewaan Sepeda.
 1. Clone repository ini ke komputer lokal Anda menggunakan perintah berikut:
 
    ```shell
-   git clone https://github.com/ariniamsr/bike-sharing.git
+   [git clone https://github.com/ariniamsr/bike-sharing.git](https://github.com/BarryM325B4KY0815/Submission.git)
    ```
 
 2. Pastikan Anda memiliki lingkungan Python yang sesuai dan pustaka-pustaka yang diperlukan. Anda dapat menginstal pustaka-pustaka tersebut dengan menjalankan perintah berikut:
