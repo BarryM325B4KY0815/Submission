@@ -1,4 +1,6 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 import streamlit as st
 
 sns.set(style='dark')
@@ -103,7 +105,7 @@ with col3:
 
 st.subheader("Performa penjualan perusahaan dalam beberapa tahun terakhir")
 
-fig, ax = plt.subplots(figsize=(16, 8))
+fig, ax = plt.subplots(figsize=(20, 10))
 ax.plot(
     days_df["dteday"],
     days_df["count_cr"],
@@ -166,4 +168,6 @@ ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',colors=["#D3D3D
 ax1.axis('equal')  
 
 st.pyplot(fig1)
+
+
 
