@@ -6,7 +6,7 @@ st.title("Basic Bike Sharing Dashboard")
 st.write("This dashboard provides a summary of bike sharing data.")
 
 # File uploader for CSV
-data = pd.read_csv("all_data.csv", encoding='utf-8')
+uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 
 # Load data if a file is uploaded
 if uploaded_file is not None:
