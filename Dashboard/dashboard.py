@@ -4,10 +4,6 @@ import pandas as pd
 # Load data
 uploaded_file = st.file_uploader("all_data.csv", type="csv")
 
-# Load data if a file is uploaded
-if uploaded_file is not None:
-    data = pd.read_csv(uploaded_file.csv, encoding='utf-8')
-    
 # Title and description
 st.title("Basic Bike Sharing Dashboard")
 st.write("This dashboard provides a summary of bike sharing data.")
