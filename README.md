@@ -20,3 +20,15 @@ Proyek ini bertujuan untuk menganalisis data dari Dataset Penyewaan Sepeda.
     pip install streamlit
     pip install -r requirements.txt
     ```
+3. memasukan file all_data.csv ke dalam streamlit agar dapat terbaca oleh dashboard.py
+
+
+## Penggunaan
+1. Masuk ke direktori proyek (Local):
+
+    ```shell
+    cd Submission/Dashboard/
+    streamlit run dashboard.py
+    ```
+    Atau bisa dengan kunjungi website ini (https://submission-9v65fnvmmo6akdcw5qmhzz.streamlit.app/)
+   
