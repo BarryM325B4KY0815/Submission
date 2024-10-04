@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load data
-data = pd.read_csv("all_data.csv")
+data = pd.read_csv("all_data.csv", encoding='utf-8')
 
 # Title and description
 st.title("Basic Bike Sharing Dashboard")
